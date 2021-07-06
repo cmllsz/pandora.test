@@ -28,7 +28,7 @@ body {
     background-color: white;
     z-index: 100;
     margin: 11px;
-    background: url(/img/eyeno.png) no-repeat center center;
+    background: url(/eyeno.png) no-repeat center center;
     background-size: 90px;
 }
 
@@ -38,7 +38,7 @@ body {
     width: 115px;
     z-index: 3;
     margin: 11px;
-    background: url(/img/mask.png) no-repeat center center;
+    background: url(/mask.png) no-repeat center center;
     background-size: 134px;
     display: none;
 }
@@ -51,7 +51,7 @@ body {
     width: 37px;
     z-index: 2;
     margin: 11px;
-    background: url(/img/eyeball.png) no-repeat center center;
+    background: url(/eyeball.png) no-repeat center center;
     background-size: contain;
     animation-name: eyeball-on;
     animation-duration: 5s;
@@ -301,7 +301,7 @@ button {
 }
 
 img:hover {
-    filter: url(img/eyeno.png);
+    filter: url(eyeno.png);
 }
 /*@keyframes blurtext {
   0% {
